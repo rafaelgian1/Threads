@@ -1,6 +1,6 @@
 import java.util.concurrent.Semaphore;
 
-public class DemoThreadv3 {
+public class DemoThreadSemaphores {
     static Semaphore semaphore = new Semaphore(2); //locks 2 Each time
     public static void main(String[] args) {
         new Thread(()->{

@@ -1,4 +1,4 @@
-public class DemoThreadv2 {
+public class DemoThreadSynchronized {
     public static void main(String[] args) {
         new Thread(()->{printChar('A');}).start();
         new Thread(()->{printChar('B');}).start();

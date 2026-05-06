@@ -1,4 +1,4 @@
-public class DemoThread {
+public class DemoThreadSimple {
     public static void main(String[] args) {
         new Thread(()->{printChar('A');}).start();
         new Thread(()->{printChar('B');}).start();
